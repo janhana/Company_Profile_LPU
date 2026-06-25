@@ -1,7 +1,4 @@
-FROM php:8.4-apache
-RUN a2dismod mpm_event || true \
-    && a2enmod mpm_prefork \
-    && docker-php-ext-install mysqli \
-    && a2enmod rewrite
+FROM php:8.2-apache
+RUN docker-php-ext-install mysqli
 COPY . /var/www/html/
 EXPOSE 80
