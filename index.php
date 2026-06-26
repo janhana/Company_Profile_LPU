@@ -629,14 +629,14 @@
         <div class="kontak-ico">📞</div>
         <div class="kontak-detail">
           <h4>Phone / WhatsApp</h4>
-          <p>+62 822 8553 4662</p>
+          <p>+62 823 8573 9558</p>
         </div>
       </div>
       <div class="kontak-item">
         <div class="kontak-ico">✉️</div>
         <div class="kontak-detail">
           <h4>Email</h4>
-          <p>info@linkpangestututama.co.id<br>marketing@linkpangestututama.co.id</p>
+          <p>lpu.btm@gmail.com</p>
         </div>
       </div>
       <div class="kontak-item">
@@ -717,7 +717,7 @@
 <script>
   // ===== WHATSAPP =====
   // ✏️ Ganti dengan nomor WA perusahaan (format: 628xxx tanpa + atau spasi)
-  const waNumber = '6282285534662';
+  const waNumber = '6282385739558';
 
   function sendToWhatsApp() {
     const name    = document.getElementById('wa-name').value.trim();
